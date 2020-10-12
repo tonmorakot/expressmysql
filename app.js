@@ -4,7 +4,7 @@ const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const basicAuth = require("express-basic-auth");
 const helmet = require("helmet");
-const core = require("cors");
+const cors = require("cors");
 
 const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
